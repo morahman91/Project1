@@ -16,3 +16,44 @@ Requirements Acceptance Criteria:
 3.2.	Chart 10. Incidence rates by size class, industry tile should be updated to ‘Chart 10. Incidence rates by size class, private industry ‘in UI.
 	
 3.3.	Design Screenshot.
+
+Table 2. Pcts - Worker characteristics by major industry sector
+
+
+Description
+As a Profiles user, I need to have the following changes made to Table 2:
+
+
+
+Acceptance criteria: 
+
+Publication Report Table 2 should get generated based on the selected biennial SY
+Generate table by each case type (DAFW, DJTR, DART)
+Update table title to reflect case type selected
+Update all applicable footnotes
+Update table title to reflect biennial year: "YYYY-YYYY"
+Update stored procedure to reflect series break from CS to CB effective SY 2023 onward
+
+
+to accommodate multi-year (biennial) SOII case and demographic estimates starting with outputs for the 2021-2022 biennial reference years (RY).
+
+
+
+
+
+
+
+Following are the titles updated in Table 2. Excel downloaded reports if the user selects the multi-year (biennial) and corresponding Case types.
+
+Case type -DAFW: New output title: Table & Chart:
+Table 2. Percent distribution of nonfatal occupational injuries and illnesses involving days away from work (DAFW) by selected worker characteristics and major industry sector, <ownership>, <state>, YYYY-YYYY
+
+Example: Table 2.  Percent distribution of nonfatal occupational injuries and illnesses involving days away from work (DAFW) by selected worker characteristics and major industry sector, Alabama, 2022-2023.
+
+
+Case type -DJTR: New output title: Table & Chart:
+Table 2. Percent distribution of nonfatal occupational injuries and illnesses involving days of job transfer or restriction (DJTR) by selected worker characteristics and major industry sector, <ownership>, <state>, YYYY-YYYY
+
+
+Case type – DART: New output title: Table& Chart:
+Table 2.  Percent distribution of nonfatal occupational injuries and illnesses involving days away from work, job transfer, or restriction (DART) by selected worker characteristics and major industry sector, <ownership>, <state>, YYYY-YYYY
